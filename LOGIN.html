@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+            <link rel="stylesheet" href="LOGIN.css">
+            <style>
+                .logo2{
+                    mix-blend-mode: multiply;
+                }
+            </style>
+</head>
+<body>
+    <div class="Login">
+    <header>
+      <img src="mike motors logo.jpg" height="70px" alt="Mike Motor Logo" 
+                            title="Chrisand University Logo" class="logo2">  
+    <nav>
+     <a href="MIKE MOTORS.html" class="others"><b>HOME</b></a>
+     <a href="BUY A CAR.html" class="others"><b>BUY A CAR</b></a>
+     <a href="CONTACT US.html" class="others"><b>CONTACT US</b></a>
+   </nav>
+</header>
+        
+        <div class="form-box">
+            <img class="logo" src="mike motors logo.jpg" height="130px" width="130px" alt="">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="Login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+            </div>
+           
+         <form id="Login" class="input-group">
+            <input type="text" class="input-field" placeholder="User ID" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Me</span>
+            <button type="button" class="submit-btn">Login</button>
+        </form>
+
+         <form id="Register" class="input-group">
+            <input type="text" class="input-field" placeholder="User ID" required>
+            <input type="email" class="input-field" placeholder="Email ID" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span class="span">I agree to the <a href="#">Terms & Condition</a></span>
+            <button type="button" class="submit-btn"><a class="Login2" href="Login2.html">Register</a></button>
+        </form>
+        
+        </div>
+     <footer>
+       <h5>© 2025 MIKE MOTORS. All Rights Reserved</h5>
+    </footer>
+        </div>
+
+        <script>
+            var x = document.getElementById("Login");
+            var y = document.getElementById("Register");
+            var z = document.getElementById("btn");
+
+            function Register(){
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "110px";
+            }
+
+            function Login(){
+                x.style.left = "50px";
+                y.style.left = "400px";
+                z.style.left = "0";
+            }
+
+        </script>
+
+</body>
+</html>

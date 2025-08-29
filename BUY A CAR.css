@@ -1,0 +1,178 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: darkkhaki;    
+}
+.BPY{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.B{
+    position: absolute;
+    background-color: burlywood;
+    box-shadow: 0 8px 16px black;
+    min-width: 160px; 
+    display: none;
+}
+.B a{
+    color: black;
+    font-size: 30px;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+.dropbtn{
+   background-color: wheat;
+   color: black;
+   font-size: 20px;
+   padding: 12px 20px;
+   cursor: pointer;
+   text-decoration: none;
+}
+.Bd:hover .B{
+    display: block;
+    color: black;
+
+}
+.B a:hover{
+    background-color: dimgray;
+}
+.navbar{
+    background-color: khaki;
+    margin: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 30px;
+}   
+.BPY li {
+    position: relative;
+}
+.BPY li a {
+    padding: 16px 24px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}   
+.BPY li a:hover{ 
+    background-color: grey;
+}
+.navbar .B{
+    background-color: khaki;
+    display: none;
+}
+.navbar .Bd:hover .B{
+    display: block;
+}
+h3{
+    margin-top: 30px;
+    font-size: 40px;
+    padding: 20px;
+    font-style: italic;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 0px white;
+}
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Sport{
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-rows: repeat(auto,minmax(200px,1fr));
+    gap: 30px;
+    padding: 20px;
+
+}
+.car {
+    background: wheat;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 20 20 20px;
+}
+.car2{
+    background: wheat;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 20 20 20px;
+}
+.car img{
+    max-width: 390px;
+    border-radius: 10px;
+}
+.car{
+    color: black;
+}
+.car p{
+    display: inline-block;
+    justify-content: space-between;
+}
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 50%;
+}
+.price2{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 80px;
+}
+.price3{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 50px;
+}
+.button{
+    width: 80px;
+    height: 25px;
+    border: brown;
+    border-radius: 20px;
+    color: green;
+    margin-bottom: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    height: 50px;
+}
+.others{
+    color: black;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 1px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{ 
+    background-color: rgb(136, 130, 49);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}

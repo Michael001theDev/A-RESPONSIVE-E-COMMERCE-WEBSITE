@@ -1,0 +1,105 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: white;
+    padding: 0px;
+}
+main{
+    padding: 20px;
+}
+.Sport{
+    display: grid;
+    grid-template-columns: repeat(auto,minmax(200px,1fr));
+    gap: 25px;
+}
+.car {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 0 10px;
+}
+.car img{
+    max-width:100%;
+    height:auto;
+    border-radius: 5px;
+}
+.car{
+    color: black;
+}
+.price{
+    color: green;
+    margin-left: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.price2{
+    color: green;
+    margin-left: 55%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.price3{
+    color: green;
+    margin-left: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.price4{
+     color: green;
+    margin-left: 45%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.name{
+    margin-left:  30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.name2{
+    margin-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+p{
+    display: inline;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    color: silver;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    border: brown;
+    border-radius: 20px;
+    color: green;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    background-color: yellow;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    height: 50px;
+}
+hr{
+    background-color: rgb(197, 179, 179) ;
+    height: 30px;
+}
+.logo{
+    height: 45px;
+}
